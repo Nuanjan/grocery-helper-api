@@ -1,4 +1,4 @@
-## Grocery-Helper-Api: A Description
+# Grocery-Helper-Api: A Description
 
 Welcome to my Grocery-Helper-Api project. The purpose of this project is to create the API for client that want to request the data from grocery-helper-api to create a grocery-list. My Grocery-Helper-Api will allow client to create the new grocery list, show grocery-list that the user created, update grocery-list and delete the grocery-list. The require of this API is the client must have authentication to access the API. The client must sign-up with the unique email and password. Client will be able to change the password and signout after sign in.
 
@@ -6,7 +6,7 @@ Links
 <!-- need the web application link -->
 <!-- need gitHub repo for web application -->
 
-### User Stories
+## User Stories
 * As a Grocery-helper-Api, I want to recieves the authentication method and response back.
     - if client successful request sign-up, I will response back 201 created.
     - if client successful request sign-up, I will response back 201 created and token.
@@ -19,10 +19,10 @@ Links
    - if client successful request show-list, I will response 200 and show list from database.
    - if client successful request update-list, I will response 200 ok and update list from database.
    - if client successful request delete-list, I will response 204 and delete from database.
-   -if client have no authentication, I will response 401 unauthorized.
-   -if client failed to create, update, delte list, I will response 400 bad request.
+   - if client have no authentication, I will response 401 unauthorized.
+   - if client failed to create, update, delte list, I will response 400 bad request.
 
-   ### Tecnologies used
+   ## Tecnologies used
 
    * Express
    * MongoDb
@@ -30,10 +30,10 @@ Links
    * Handlerbar
    * nodemon
 
-   ### Unsolved Problem
+   ## Unsolved Problem
 
-   ### Images
+   ## Images
 
-   #### ERD(entities Relation diagram)
+   ### ERD(entities Relation diagram)
 
 ![grocery-api-ERD](https://i.imgur.com/ntYRNQm.png)
