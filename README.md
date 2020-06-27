@@ -19,7 +19,7 @@ Links
    - if client successful request show-list, I will response back 200 and show list from database.
    - if client successful request update-list, I will response 200 ok and update list from database.
    - if client successful request delete-list, I will response 204 no content and delete from database.
-   -if client have no authentication, I will response 401 unauthorized
+   -if client have no authentication, I will response 401 unauthorized.
    -if client failed to create, update, delte list, I will response 400 bad request.
 
    ### Tecnologies used
