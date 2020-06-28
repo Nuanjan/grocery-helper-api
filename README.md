@@ -2,7 +2,7 @@
 
 Welcome to my Grocery-Helper-Api project. The purpose of this project is to create the API for client that want to request the data from grocery-helper-api to create a grocery-list. My Grocery-Helper-Api will allow client to create the new grocery list, show grocery-list that the user created, update grocery-list and delete the grocery-list. The require of this API is the client must have authentication to access the API. The client must sign-up with the unique email and password. Client will be able to change the password and signout after sign in.
 
-Links
+## Important links
 <!-- need the web application link -->
 
 [Fontend-grocery-helper gitHub Repo](https://github.com/Nuanjan/grocery-helper-client)
