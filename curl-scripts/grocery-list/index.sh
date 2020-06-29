@@ -1,11 +1,11 @@
-#!/bin/bash
+#!/bin/sh
 
 API="http://localhost:4741"
-URL_PATH="/sign-out"
+URL_PATH="/groceryLists"
 
-curl "${API}${URL_PATH}/" \
+curl "${API}${URL_PATH}" \
   --include \
-  --request DELETE \
+  --request GET \
   --header "Authorization: Bearer ${TOKEN}"
 
 echo
