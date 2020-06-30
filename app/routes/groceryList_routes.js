@@ -46,13 +46,15 @@ router.get('/groceryLists', requireToken, (req, res, next) => {
 // create
 // POST /groceryLists
 router.post('/groceryLists', requireToken, (req, res, next) => {
+// set the owner of new groceryList to be current user
+  console.log('grocery body is: ', req.user._id)
+  req.body.groceryList.owner = req.user._id
   const groceryListData = req.body.groceryList
   GroceryList.create(groceryListData)
   // respond to succesful `create` with status 201 and JSON of new "example"
     .then(groceryList => {
       res.status(201).json({ groceryList: groceryList.toObject() })
     })
-    .then(handle404)
   // if an error occurs, pass it off to our error handler
   // the error handler needs the error message and the `res` object so that it
   // can send an error message back to the client

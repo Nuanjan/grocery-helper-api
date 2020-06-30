@@ -10,8 +10,7 @@ curl "${API}${URL_PATH}" \
   --data '{
     "groceryList": {
       "title": "'"${TITLE}"'",
-        "list": "'"${LIST}"'",
-        "owner": "'"${OWNER}"'"
+        "list": "'"${LIST}"'"
     }
   }'
 
