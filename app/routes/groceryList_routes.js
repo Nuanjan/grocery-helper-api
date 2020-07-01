@@ -47,7 +47,6 @@ router.get('/groceryLists', requireToken, (req, res, next) => {
 // POST /groceryLists
 router.post('/groceryLists', requireToken, (req, res, next) => {
 // set the owner of new groceryList to be current user
-  console.log('grocery body is: ', req.user._id)
   req.body.groceryList.owner = req.user._id
   const groceryListData = req.body.groceryList
   GroceryList.create(groceryListData)
