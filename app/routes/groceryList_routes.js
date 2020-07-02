@@ -98,7 +98,7 @@ router.delete('/groceryLists/:id', requireToken, (req, res, next) => {
   GroceryList.findById(req.params.id)
     .then(handle404)
     .then(groceryList => {
-      // delete the example
+      // delete the grocerylist
       groceryList.deleteOne()
     })
     // send back 204 and no content if the deletion succeeded

@@ -4,7 +4,8 @@ curl 'http://localhost:4741/items' \
     --header "Content-Type: application/json" \
     --data '{
       "item": {
-        "itemName": "'"${ITEMNAME}"'",
-        "amount": "'"${AMOUNT}"'"
+        "itemName": "'"${ITEM}"'",
+        "amount": "'"${AMOUNT}"'",
+        "groceryListId": "'"${GROCERY_ID}"'"
       }
     }'
