@@ -40,5 +40,6 @@ Welcome to my Grocery-Helper-Api project. The purpose of this project is to crea
    ## Images
 
    ### ERD(entities Relation diagram)
+   This ERD is the advance plan for my grocery roject. But the project has only one to many relation of user and List only. The one to many of list item will be create in the future.
 
 ![grocery-api-ERD](https://i.imgur.com/ntYRNQm.png)
