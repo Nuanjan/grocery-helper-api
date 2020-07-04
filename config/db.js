@@ -1,6 +1,8 @@
 'use strict'
 
 // creating a base name for the mongodb
+// swith to grocery-helper-advance for improvement version
+// switch to grocery-helper for version 1
 const mongooseBaseName = 'grocery-helper'
 
 // create the mongodb uri for development and test

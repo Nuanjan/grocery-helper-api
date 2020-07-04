@@ -6,6 +6,8 @@ Welcome to my Grocery-Helper-Api project. The purpose of this project is to crea
 <!-- need the web application link -->
 
 [Fontend-grocery-helper gitHub Repo](https://github.com/Nuanjan/grocery-helper-client)
+[Heroku-deployed-site](https://pure-thicket-03244.herokuapp.com)
+[grocery-helper-Client-Deployed-site](https://nuanjan.github.io/grocery-helper-client/)
 
 ## User Stories
 * As a Grocery-helper-Api, I want to recieves the authentication method and response back.
@@ -32,6 +34,8 @@ Welcome to my Grocery-Helper-Api project. The purpose of this project is to crea
    * nodemon
 
    ## Unsolved Problem
+   * Api has a subdocument of items inside of grocery list Schema, items subdocument is array of item object that has a name and amount.
+   * Api will be able to store the items with the picture that user can request the name amount and picture of item.
 
    ## Images
 
