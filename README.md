@@ -6,7 +6,9 @@ Welcome to my Grocery-Helper-Api project. The purpose of this project is to crea
 <!-- need the web application link -->
 
 [Fontend-grocery-helper gitHub Repo](https://github.com/Nuanjan/grocery-helper-client)
+
 [Heroku-deployed-site](https://pure-thicket-03244.herokuapp.com)
+
 [grocery-helper-Client-Deployed-site](https://nuanjan.github.io/grocery-helper-client/)
 
 ## User Stories
