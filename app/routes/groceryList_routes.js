@@ -98,7 +98,9 @@ router.delete('/groceryLists/:id', requireToken, (req, res, next) => {
   GroceryList.findById(req.params.id)
     .then(handle404)
     .then(groceryList => {
-      // delete the example
+      // throw an error if current user doesn't own `groceryList`
+      requireOwnership(req, groceryList)
+      // delete the list
       groceryList.deleteOne()
     })
     // send back 204 and no content if the deletion succeeded
